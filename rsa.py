@@ -63,9 +63,3 @@ class RSA:
         self.calc_e()
         self.calc_d()
         return (self.e, self.n), (self.d, self.n)
-
-alg = RSA()
-pub, priv = alg.generate_keys()
-
-print(pub)
-print(priv)
